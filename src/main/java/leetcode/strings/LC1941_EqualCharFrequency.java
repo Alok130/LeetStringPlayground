@@ -1,26 +1,8 @@
 package leetcode.strings;
 
-import java.util.Arrays;
-import java.util.Objects;
 import java.util.Vector;
 
 public class LC1941_EqualCharFrequency {
-
-
-    public static void main(String[] args) {
-        String s1 = "juczjzjlsfkmpv";// Output : false
-        String s2 = "aabb";// Output : true
-        String s3 = "abacbc";// Output : true
-        String s4 = "mmmccmcccccmcccccmmmcmccmmccccmmmcmmcmcmcmcmmmmmmmmmcccmmcmmmcmmcmcmcmmmcmmmcmmccccmcmccmmcmccmmmcmmccccmcmmccmcmmcccmmcmmcmmcmccmmccmcmmcmmccmmccmcccmmcccmmcccccmcmmmmcmccmmmmmmcmmccmccmmcccccccccmcccmmmccmmccccmmcmcmcmcmmcmmcmcmcmccccmmcccmmmccmmcmmmcmmmcmccccmcmcccmmccmm";// Output : true
-        String s5 = "aa";
-
-       /* System.out.println(areOccurrencesEqual(s1));
-        System.out.println(areOccurrencesEqual(s2));
-        System.out.println(areOccurrencesEqual(s3));
-        System.out.println(areOccurrencesEqual(s4));*/
-
-        System.out.println(areOccurrencesEqualOptimized(s5));
-    }
 
     public static boolean areOccurrencesEqual(String s) {
 
