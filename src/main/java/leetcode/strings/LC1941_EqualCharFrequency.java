@@ -16,12 +16,9 @@ public class LC1941_EqualCharFrequency {
                     occCounter++;
                 }
             }
-            System.out.println("Counter Value :"+occCounter);
-
             vectorCounter.add(occCounter);
 
             s = s.replaceAll(String.valueOf(s.charAt(0)), "");
-            System.out.println("Value : "+s);
         }
         // check if the array contains equal elements or not
         // if yes return "true"
@@ -46,7 +43,6 @@ public class LC1941_EqualCharFrequency {
         }
 
         int commonFreq = 0;
-
         for(int freq : frequency){
             if(freq == 0){
                 continue;
